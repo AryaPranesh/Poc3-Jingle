@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Room booking</title>
+<style>
+body {
+  background-image:
+    url('https://communicationsguide.ucdavis.edu/sites/g/files/dgvnsk6246/files/styles/sf_gallery_full/public/gallery-2020-03/20190326-ARC-0226.jpg?itok=jnOKO5SF');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<form action="Rooms.jsp" method="post">
+    <h1 align="center" style="margin-top: 5%">BOOK NOW</h1>
+    <table align="center" style="margin-top: 10%">
+      
+         <tr>
+        <td>User Name</td>
+        <td><input type="text" name="UserName" required></td>
+      </tr>
+      <tr>
+        <td>Room Number</td>
+        <td><input type="text" name="RoomNumber" required></td>
+      </tr>
+      <tr>
+        <td>No of persons to stay</td>
+        <td><input type="text" name="NoOfPeople" required></td>
+      </tr>
+      <tr>
+        <td>Date of checkin</td>
+        <td><input type="date" name="CheckInDate" required></td>
+      </tr>
+       <tr>
+        <td>Date of checkout</td>
+        <td><input type="date" name="CheckOutDate" required></td>
+      </tr>
+      
+      <tr>
+        <td></td>
+        <td><input type="submit" value="BOOKED" /></td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
